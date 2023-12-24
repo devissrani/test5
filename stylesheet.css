@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(155, 155, 155);
+}
+.cross img:hover{
+    cursor: pointer;
+    color: lightgrey;
+}
+.cross img{
+    border: 2px solid white;
+    border-radius: 100px;
+    background-color: white;
+    position: sticky;
+    top: -643px;
+    left: 171px;
+}
+
+.container {
+    height: 625px;
+    width: 595px;
+    padding: 0px 145px;
+    background-color: white;
+    border-radius: 15px;
+    margin: 35px auto;
+}
+
+.headimage img {
+    margin: 10px 43%;
+}
+a{
+    text-decoration: none;
+    color: black;
+} 
+h1 {
+    height: 35px;
+    font-family: 'IBM Plex Sans';
+    font-size: 32px;
+}
+
+.btn button {
+    background-color: white;
+    border: 1px solid lightgrey;
+    height: 37px;
+    width: 100%;
+    margin: 13px 0px;
+    border-radius: 5000px;
+    font-size: 15px;
+    padding: 10px;
+    font-family: 'IBM Plex Sans';
+}
+
+.btn p {
+    display: inline;
+    position: relative;
+    top: -13px;
+    left: -10px;
+}
+
+.btn img {
+    position: relative;
+    top: -5px;
+}
+
+.btn#apple img {
+    left: -1px;
+}
+
+.btn#google img {
+    left: 13px;
+}
+.btn#google button p{
+    color: rgb(69, 68, 68);
+} 
+.container p {
+    font-family: 'IBM Plex Sans';
+    display: inline;
+
+}
+
+.line {
+    padding-left: 25px;
+    display: inline-block;
+    width: 140px;
+    margin: 3px 0px;
+    border: 0.5px solid lightgrey;
+    height: 0px;
+}
+
+.btn input {
+    height: 60px;
+    width: 305px;
+    font-size: 17px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    padding: 8px;
+    margin: 16px 0px;
+}
+#btn1 button{
+    background-color: black;
+    color: white;  
+    padding: 5px;
+}
+#btn2 button{ 
+    padding: 5px;
+}
+#btn1 button a{
+    color: white;
+}
+button:hover{
+    cursor: pointer;
+}
+#google button:hover{
+    background-color: rgb(227, 244, 255);
+}
+#apple button:hover{
+    background-color: lightgrey;
+}
+#btn1 button:hover{
+    background-color: rgb(42, 39, 39);
+}
+#btn2 button:hover{
+    background-color: lightgrey;
+}
+.signup a{
+    color: rgb(29 , 155, 240);
+} 
